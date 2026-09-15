@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="hud" style="flex-grow: 1;">
+        <ui:Label text="0" name="score" style="top: 10%; left: 50%; right: 50%; position: absolute; font-size: 90px; -unity-text-align: middle-center;"/>
+        <ui:Label text="word" name="text" style="-unity-text-align: middle-center; font-size: 100px; bottom: 10%; position: absolute; left: 50%; right: 50%;"/>
+    </ui:VisualElement>
+</ui:UXML>
